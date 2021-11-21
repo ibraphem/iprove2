@@ -84,7 +84,7 @@
 				a{
 					font-weight: 700;
 					font-size: 20px;
-					color: #1f2278;
+					color: #F0B90B;
 					display: flex;
 					align-items: center;
 					i{
@@ -258,7 +258,7 @@
 				color: $secondary;
 			}
 			&>a {
-				color: #1f2278;
+				color: #F0B90B;
 				font-size: 16px;
 				padding: 45px 20px;
 				cursor: pointer;
@@ -640,7 +640,7 @@
 			.nav{
 				&>li {
 					&>a {
-						color:#1f2278;	
+						color:#F0B90B;	
 						&:hover{
 							color:$secondary;
 							i{

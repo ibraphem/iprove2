@@ -24,8 +24,6 @@ class AboutUs extends Component{
 		return (
 			<>
 				
-				<Header />
-				
 				<div className="page-content bg-white">
 					
 					<div className="banner-wraper">
@@ -58,8 +56,6 @@ class AboutUs extends Component{
 					<LatestNewsSection />
 				
 				</div>
-				
-				<Footer />
 				
 			</>
 		);

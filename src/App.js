@@ -19,6 +19,7 @@ import GlobalStyles from "./styles/Global.styled";
 import bg1 from "./images/main-banner/bg1.jpg";
 import bg2 from "./images/main-banner/bg2.jpg";
 import footerBg from "./images/background/footer.jpg";
+import Header from "./markup/layout/header";
 
 function App() {
   const [{ nightMode }, dispatch] = useStateValue();
