@@ -1,6 +1,6 @@
-import React, {Component} from 'react';
-import {Link} from 'react-router-dom';
-import {Accordion} from 'react-bootstrap';
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import { Accordion } from 'react-bootstrap';
 
 // Layout
 import Header from "../layout/header2";
@@ -15,21 +15,21 @@ import servicesPic1 from "../../images/services/pic1.jpg";
 import pdf from "../../images/icon/pdf.png";
 import doc from "../../images/icon/doc.png";
 
-class ServiceDetail extends Component{
-	
-	render(){
+class ServiceDetail extends Component {
+
+	render() {
 		return (
 			<>
-				
+
 				<Header />
-				
+
 				<div className="page-content bg-white">
-					
+
 					<div className="banner-wraper">
-						<div className="page-banner" style={{backgroundImage: "url("+bnrImg1+")"}}>
+						<div className="page-banner" style={{ backgroundImage: "url(" + bnrImg1 + ")" }}>
 							<div className="container">
 								<div className="page-banner-entry text-center">
-									<h1>Service Details</h1>
+									<h1>API DOCUMENTATION</h1>
 									<nav aria-label="breadcrumb" className="breadcrumb-row">
 										<ul className="breadcrumb">
 											<li className="breadcrumb-item"><a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg> Home</a></li>
@@ -38,18 +38,18 @@ class ServiceDetail extends Component{
 									</nav>
 								</div>
 							</div>
-							<img className="pt-img1 animate-wave" src={waveBlue} alt=""/>
-							<img className="pt-img2 animate2" src={circleDots} alt=""/>
-							<img className="pt-img3 animate-rotate" src={plusBlue} alt=""/>
+							<img className="pt-img1 animate-wave" src={waveBlue} alt="" />
+							<img className="pt-img2 animate2" src={circleDots} alt="" />
+							<img className="pt-img3 animate-rotate" src={plusBlue} alt="" />
 						</div>
 					</div>
-					
+
 					<section className="section-area section-sp1">
 						<div className="container">
 							<div className="row">
 								<div className="col-lg-8 mb-30">
 									<div className="ttr-media mb-30">
-										<img src={servicesPic1} className="rounded" alt=""/>
+										<img src={servicesPic1} className="rounded" alt="" />
 									</div>
 									<div className="clearfix">
 										<div className="head-text mb-30">
@@ -70,21 +70,21 @@ class ServiceDetail extends Component{
 												<div className="skillbar-box mb-30">
 													<h6 className="title">Advanced Technology</h6>
 													<div className="skillbar appear">
-														<p className="skillbar-bar" style={{width: "96%"}}></p>
+														<p className="skillbar-bar" style={{ width: "96%" }}></p>
 														<span className="skill-bar-percent">96%</span>
 													</div>
 												</div>
 												<div className="skillbar-box mb-30">
 													<h6 className="title">Certified Engineers</h6>
 													<div className="skillbar appear">
-														<p className="skillbar-bar" style={{width: "79%"}}></p>
+														<p className="skillbar-bar" style={{ width: "79%" }}></p>
 														<span className="skill-bar-percent">79%</span>
 													</div>
 												</div>
 												<div className="skillbar-box mb-0">
 													<h6 className="title">6 years Experience</h6>
 													<div className="skillbar appear">
-														<p className="skillbar-bar" style={{width: "75%"}}></p>
+														<p className="skillbar-bar" style={{ width: "75%" }}></p>
 														<span className="skill-bar-percent">75%</span>
 													</div>
 												</div>
@@ -152,28 +152,28 @@ class ServiceDetail extends Component{
 											<div className="brochure-bx">
 												<h5 className="title-head">Download</h5>
 												<Link to="#" className="download-link">
-													<img src={pdf} alt=""/>
+													<img src={pdf} alt="" />
 													<h5 className="title">Download our Brochures</h5>
 													<span>Download</span>
 												</Link>
 												<Link to="#" class="download-link">
-													<img src={doc} alt=""/>
+													<img src={doc} alt="" />
 													<h5 className="title">Our Company Details</h5>
 													<span>Download</span>
 												</Link>
 											</div>
 										</div>
-										
+
 									</aside>
 								</div>
 							</div>
 						</div>
 					</section>
-					
+
 				</div>
-				
+
 				<Footer />
-				
+
 			</>
 		);
 	}
