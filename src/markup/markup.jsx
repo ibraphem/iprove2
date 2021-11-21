@@ -20,13 +20,15 @@ import Booking from './pages/booking';
 import BlogGrid from './pages/blog-grid';
 import BlogDetails from './pages/blog-details';
 import Error from './pages/error-404';
+import Header from './layout/header';
+import Footer from "./layout/footer";
 
 class Markup extends Component{
 	render(){
 		return(
 			<>
-				<BrowserRouter basename={'/react/'}>
-				
+				<BrowserRouter>
+					<Header/>
 					<Switch>
 					
 						<Route path='/' exact component={Index} />
@@ -50,9 +52,8 @@ class Markup extends Component{
 					</Switch>
 					
 					<PageScrollTop />
-					
+					<Footer/>
 				</BrowserRouter>
-				
 				<BackToTop />
 				
 			</>

@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 // Import Images
 
 import doctorImg from '../../images/main-banner/doctor.png';
+import main from '../../images/main-banner/main.png';
 import ptImg1 from '../../images/shap/trangle-orange.png';
 import ptImg2 from '../../images/shap/square-blue.png';
 import ptImg3 from '../../images/shap/chicle-blue-2.png';
@@ -26,7 +27,7 @@ class aboutSection extends Component{
 							</div>
 							<div className="col-lg-5 col-md-6 col-sm-5">
 								<div className="banner-img">
-									<img src={doctorImg} alt=""/>
+									<img src={main} alt=""/>
 								</div>
 							</div>
 						</div>

@@ -17,30 +17,14 @@ class Index extends Component{
 	
 	render(){
 		return (
-			<>
-				
-				<Header />
-				
+			<>	
 				<MainBannerSection />
-
 				<WorkSection />
-
 				<ServicesSliderSection />
-				
 		{/*		<AboutSection /> */}
-				
-	
-				
 				<AppointmentSection />
-				
-			
-				
 				<TestimonialSection />
-				
 			{/*	<LatestNewsSection /> */}
-				
-				<Footer />
-				
 			</>
 		);
 	}
