@@ -29,7 +29,7 @@ class ServiceDetail extends Component {
 									<nav aria-label="breadcrumb" className="breadcrumb-row">
 										<ul className="breadcrumb">
 											<li className="breadcrumb-item"><a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg> Home</a></li>
-											<li className="breadcrumb-item active" aria-current="page">Service Details</li>
+											<li className="breadcrumb-item active" aria-current="page">API Documentation</li>
 										</ul>
 									</nav>
 								</div>
@@ -43,8 +43,59 @@ class ServiceDetail extends Component {
 					<section className="section-area section-sp1">
 						<div className="container">
 							<div className="row">
+								<div className="col-lg-4">
+									<aside className="sticky-top pb-1">
+										<div className="widget">
+
+											<ul className="service-menu">
+												<li className="active"><Link to="/service-detail"><span>Welcome </span><i className="fa fa-angle-right"></i></Link></li>
+												<br />
+												<h6>GENERAL</h6>
+												<li ><Link to="/service-detail"><span>Getting Started</span><i className="fa fa-angle-right"></i></Link></li>
+												<li><Link to="/service-detail"><span>Introduction</span><i className="fa fa-angle-right"></i></Link></li>
+												<li><Link to="/service-detail"><span>Authentication</span><i className="fa fa-angle-right"></i></Link></li>
+												<li><Link to="/service-detail"><span>About Verifications</span><i className="fa fa-angle-right"></i></Link></li>
+												<br />
+												<h6>IDENTITY VERIFICATIONS</h6>
+												<li><Link to="/service-detail"><span>Bank Verification Numbers (BVN)</span><i className="fa fa-angle-right"></i></Link></li>
+												<li><Link to="/service-detail"><span>Corporate Affairs Commission</span><i className="fa fa-angle-right"></i></Link></li>
+												<li><Link to="/service-detail"><span>Driver License</span><i className="fa fa-angle-right"></i></Link></li>
+												<li><Link to="/service-detail"><span>Identity Biometrics</span><i className="fa fa-angle-right"></i></Link></li>
+												<li><Link to="/service-detail"><span>Identity Matching</span><i className="fa fa-angle-right"></i></Link></li>
+												<li><Link to="/service-detail"><span>National Identity</span><i className="fa fa-angle-right"></i></Link></li>
+												<li><Link to="/service-detail"><span>Tax Identification Number</span><i className="fa fa-angle-right"></i></Link></li>
+												<li><Link to="/service-detail"><span>Voters Card</span><i className="fa fa-angle-right"></i></Link></li>
+												<br />
+												<h6>ADDRESS VERIFICATIONS</h6>
+												<li><Link to="/service-detail"><span>Submit Address Verification</span><i className="fa fa-angle-right"></i></Link></li>
+												<li><Link to="/service-detail"><span>Get Address Verification By ID</span><i className="fa fa-angle-right"></i></Link></li>
+												<li><Link to="/service-detail"><span>Get Address Verifications</span><i className="fa fa-angle-right"></i></Link></li>
+												<li><Link to="/service-detail"><span>Cancel Address verification</span><i className="fa fa-angle-right"></i></Link></li>
+												<li><Link to="/service-detail"><span>Fetch an Address By Identity</span><i className="fa fa-angle-right"></i></Link></li>
+											</ul>
+										</div>
+										<div className="widget">
+											<div className="brochure-bx">
+												<h5 className="title-head">Download</h5>
+												<Link to="#" className="download-link">
+													<img src={pdf} alt="" />
+													<h5 className="title">Download our Brochures</h5>
+													<span>Download</span>
+												</Link>
+												<Link to="#" class="download-link">
+													<img src={doc} alt="" />
+													<h5 className="title">Our Company Details</h5>
+													<span>Download</span>
+												</Link>
+											</div>
+										</div>
+
+									</aside>
+								</div>
 								<div className="col-lg-8 mb-30">
 									<div className="ttr-media mb-30">
+										<h2 style={{ color: "black" }}>Welcome</h2><hr style={{ color: "black" }} />
+										<p style={{ color: "black" }}>Hey There! How's your day going?</p>
 										<img src={servicesPic1} className="rounded" alt="" />
 									</div>
 									<div className="clearfix">
@@ -132,36 +183,7 @@ class ServiceDetail extends Component {
 										</Accordion>
 									</div>
 								</div>
-								<div className="col-lg-4">
-									<aside className="sticky-top pb-1">
-										<div className="widget">
-											<ul className="service-menu">
-												<li className="active"><Link to="/service-detail"><span>Engine Diagnostics</span><i className="fa fa-angle-right"></i></Link></li>
-												<li><Link to="/service-detail"><span>Lube Oil and Filters</span><i className="fa fa-angle-right"></i></Link></li>
-												<li><Link to="/service-detail"><span>Belts and Hoses</span><i className="fa fa-angle-right"></i></Link></li>
-												<li><Link to="/service-detail"><span>Air Conditioning</span><i className="fa fa-angle-right"></i></Link></li>
-												<li><Link to="/service-detail"><span>Brake Repair</span><i className="fa fa-angle-right"></i></Link></li>
-												<li><Link to="/service-detail"><span>Tire and Wheel Services</span><i className="fa fa-angle-right"></i></Link></li>
-											</ul>
-										</div>
-										<div className="widget">
-											<div className="brochure-bx">
-												<h5 className="title-head">Download</h5>
-												<Link to="#" className="download-link">
-													<img src={pdf} alt="" />
-													<h5 className="title">Download our Brochures</h5>
-													<span>Download</span>
-												</Link>
-												<Link to="#" class="download-link">
-													<img src={doc} alt="" />
-													<h5 className="title">Our Company Details</h5>
-													<span>Download</span>
-												</Link>
-											</div>
-										</div>
 
-									</aside>
-								</div>
 							</div>
 						</div>
 					</section>
