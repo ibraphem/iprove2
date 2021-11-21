@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom';
 import { Accordion } from 'react-bootstrap';
 
 // Layout
-import Header from "../layout/header2";
-import Footer from "../layout/footer";
 
 // Import Images
 import bnrImg1 from "../../images/banner/img1.jpg";
@@ -20,8 +18,6 @@ class ServiceDetail extends Component {
 	render() {
 		return (
 			<>
-
-				<Header />
 
 				<div className="page-content bg-white">
 
@@ -172,7 +168,7 @@ class ServiceDetail extends Component {
 
 				</div>
 
-				<Footer />
+		
 
 			</>
 		);

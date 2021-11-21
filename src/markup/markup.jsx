@@ -21,39 +21,38 @@ import BlogGrid from './pages/blog-grid';
 import BlogDetails from './pages/blog-details';
 import Error from './pages/error-404';
 import Header from './layout/header';
-import Footer from "./layout/footer";
+import Footer from './layout/footer';
 
 class Markup extends Component{
 	render(){
 		return(
 			<>
 				<BrowserRouter>
-					<Header/>
+						<Header/>
 					<Switch>
 					
 						<Route path='/' exact component={Index} />
 						<Route path='/about-us' exact component={AboutUs} />
-						<Route path='/services' exact component={ServiceDetail} />
-						<Route path='/api' exact component={Error} />
-						<Route path='/form-login' exact component={FormLogin} />
-						<Route path='/contact-us' exact component={ContactUs} />
-						<Route component={Error} />
-						
-					{/*	<Route path='/team' exact component={Team} />
+						<Route path='/team' exact component={Team} />
 						<Route path='/services' exact component={Services} />
+						<Route path='/api' exact component={ServiceDetail} />
+						<Route path='/service-detail' exact component={ServiceDetail} />
+						<Route path='/form-login' exact component={FormLogin} />
 						<Route path='/form-register' exact component={FormRegister} />
 						<Route path='/form-forget-password' exact component={FormForgetPassword} />
 						<Route path='/faq' exact component={Faq} />
+						<Route path='/contact-us' exact component={ContactUs} />
 						<Route path='/booking' exact component={Booking} />
 						<Route path='/blog-grid' exact component={BlogGrid} />
-						<Route path='/blog-details' exact component={BlogDetails} /> */}
-						
+						<Route path='/blog-details' exact component={BlogDetails} />
+						<Route component={Error} />
 						
 					</Switch>
 					
 					<PageScrollTop />
 					<Footer/>
 				</BrowserRouter>
+				
 				<BackToTop />
 				
 			</>

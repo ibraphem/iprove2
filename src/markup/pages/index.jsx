@@ -1,9 +1,5 @@
 import React, {Component} from 'react';
 
-// Layout
-import Header from "../layout/header";
-import Footer from "../layout/footer";
-
 // Elements
 import MainBannerSection from "../elements/main-banner";
 import AboutSection from "../elements/about";
@@ -25,6 +21,7 @@ class Index extends Component{
 				<AppointmentSection />
 				<TestimonialSection />
 			{/*	<LatestNewsSection /> */}
+
 			</>
 		);
 	}

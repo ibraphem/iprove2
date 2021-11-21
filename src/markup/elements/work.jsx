@@ -31,7 +31,7 @@ class aboutSection extends Component{
 								</StyledHomeCard>
 							</div>
 							<div className="col-lg-4 col-sm-6 mb-30">
-								<StyledHomeCard className="work-bx active">
+								<StyledHomeCard className="work-bx">
 									<div className="work-num-bx">02</div>
 									<div className="work-content">
 										<h5 className="title text-secondary mb-10">KYC</h5>

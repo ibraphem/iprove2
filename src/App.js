@@ -39,7 +39,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyles />
-      <div className="page-wraper">
+      <div className="page-wraper" style={{ marginTop: "50px" }}>
         <Markup />
       </div>
     </ThemeProvider>

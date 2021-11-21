@@ -2,8 +2,7 @@ import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 
 // Layout
-import Header from "../layout/header2";
-import Footer from "../layout/footer";
+
 
 // Import Images
 import bnrImg1 from "../../images/banner/img1.jpg";
@@ -20,10 +19,7 @@ class ContactUs extends Component{
 	
 	render(){
 		return (
-			<>
-				
-				<Header />
-				
+			<>				
 				<div className="page-content bg-white">
 					
 					<div className="banner-wraper">
@@ -152,7 +148,7 @@ class ContactUs extends Component{
 				
 				</div>
 				
-				<Footer />
+
 				
 			</>
 		);

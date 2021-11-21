@@ -72,7 +72,7 @@ const Header = () => {
 						</button>
 						<div className="secondary-menu">
 							<ul>
-								<li className="btn-area"><button onClick={changeMode} className="btn  shadow">{nightMode ? "Dark Mode" : "Light Mode"} <i className="btn-icon-bx fas fa-chevron-right"></i></button></li>
+								<li className="btn-area"><button onClick={changeMode} className="btn  shadow">{nightMode ? "Light Mode" : "Dark Mode"} <i className="btn-icon-bx fas fa-chevron-right"></i></button></li>
 							</ul>
 						</div>
 						<div className="menu-links navbar-collapse collapse justify-content-end" id="menuDropdown">

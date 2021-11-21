@@ -23,7 +23,7 @@ class Services extends Component{
 		return (
 			<>
 				
-				<Header />
+	
 				
 				<div className="page-content bg-white">
 					
@@ -175,8 +175,7 @@ class Services extends Component{
 					<LatestNewsSection />
 					
 				</div>
-				
-				<Footer />
+	
 				
 			</>
 		);
