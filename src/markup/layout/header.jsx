@@ -7,7 +7,7 @@ import Sticky from 'react-stickynode';
 import iprove from '../../images/iprove.png';
 import { StyledHeader, StyledHeader1 } from '../../styles/Header.styled';
 import { useStateValue } from '../../StateProvider';
-import {nightMode} from "../../Reducer"
+
 
 
 

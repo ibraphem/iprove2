@@ -3,8 +3,9 @@ import { Link } from 'react-router-dom';
 
 // Import Images
 import aboutThumb1 from '../../images/about/pic-1.jpg';
-
-import aboutThumb2 from '../../images/about/pic-2.jpg';
+import kyc from '../../images/about/kyc.jpg';
+import address from '../../images/about/address.png';
+import identity from '../../images/about/identity.png';
 import aboutThumb3 from '../../images/about/pic-3.jpg';
 import ptImg1 from '../../images/shap/wave-orange.png';
 import ptImg2 from '../../images/shap/circle-small-blue.png';
@@ -22,31 +23,44 @@ class aboutSection extends Component{
 							<div className="col-lg-6 mb-30">
 								<div className="about-thumb-area">
 									<ul>
-										<li><img className="about-thumb1" src={aboutThumb1} alt=""/></li>
-										<li><img className="about-thumb2" src={aboutThumb2} alt=""/></li>
-										<li><img className="about-thumb3" src={aboutThumb3} alt=""/></li>
-										<li><div className="exp-bx">20<span>Year Experience</span></div></li>
+										<li><img className="about-thumb1" src={identity} alt=""/></li>
+										<li><img className="about-thumb2" src={kyc} alt=""/></li>
+										<li><img className="about-thumb3" src={address} alt=""/></li>
+										<li><div className="exp-bx">5<span>Year Experience</span></div></li>
 									</ul>
 								</div>
 							</div>
 							<div className="col-lg-6 mb-30">
 								<div className="heading-bx">
-									<h6 className="title-ext text-secondary">What We do</h6>
-									<h2 className="title">You can rely on our data to make the most important decisions</h2>
-									<p>Scale your business with our real-time ID verification and biometric enabled ID authentication service for contactless account opening and remote customer on-boarding.</p>
+									<h6 className="title-ext text-secondary">Our Story</h6>
+									<h2 className="title">Ensuring reliable and proper identification is the reason for our existence</h2>
+									<p>
+										It all began in September 2011, when Olutunji Oluwole employed “Francis” as his cook. Six months later, 
+										after a nice dinner, he and his family passed out. Eighteen hours later, they regained consciousness to find that 
+										“Francis” had poisoned and robbed them blind.
+										</p>
+										
+										<p>
+										Several weeks later, Olutunji found out that “Francis” had gained employment in the same estate with another family as “Joshua”, with a completely different identity and an altered employment history. 
+										He had begun poisoning his new employers, aided by the housemaid who had been employed with the family for 4 years..
+										</p>
+										
 								</div>
+								<h6 className="title-ext text-secondary">Our Core Values</h6>
 								<div className="row">
+								
 									<div className="col-lg-6 col-sm-6 mb-30 mb-sm-20">
 										<div className="feature-container feature-bx1 feature1">
 											<div className="icon-md">
 												<span className="icon-cell">
-													<svg enableBackground="new 0 0 512 512" height="85" viewBox="0 0 512 512" width="85" xmlns="http://www.w3.org/2000/svg">
+												<svg width="64px" height="64px" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><g id="Flat"><g id="Color"><polygon fill="#212529" points="45 17 32 25 19 17 19 3 45 3 45 17"/><polygon fill="#dd051d" points="40 3 40 20.08 32 25 24 20.08 24 3 40 3"/><path d="M32,25l6.49-4a21.36,21.36,0,0,0-13,0Z" fill="#a60416"/><circle cx="32" cy="41.5" fill="#fccd1d" r="19.5"/><circle cx="32" cy="41.5" fill="#f9a215" r="14.5"/><path d="M33.37,34l1.52,2.63a1.54,1.54,0,0,0,1.06.76L39,38a1.53,1.53,0,0,1,.85,2.56l-2.1,2.22a1.5,1.5,0,0,0-.4,1.22l.36,3a1.57,1.57,0,0,1-2.22,1.58l-2.81-1.27a1.6,1.6,0,0,0-1.32,0l-2.81,1.27A1.57,1.57,0,0,1,26.31,47l.36-3a1.5,1.5,0,0,0-.4-1.22l-2.1-2.22A1.53,1.53,0,0,1,25,38l3-.59a1.54,1.54,0,0,0,1.06-.76L30.63,34A1.59,1.59,0,0,1,33.37,34Z" fill="#fccd1d"/></g></g></svg>
+												{/*	<svg enableBackground="new 0 0 512 512" height="85" viewBox="0 0 512 512" width="85" xmlns="http://www.w3.org/2000/svg">
 														<path d="m509.82 327.343-21.991-27.599c-1.896-2.381-4.775-3.768-7.82-3.768h-7.712l-74.353-93.385c-1.897-2.383-4.777-3.771-7.823-3.771h-22.862v-22.765c0-19.014-15.43-34.483-34.396-34.483h-97.678v-4.552c0-28.428-23.127-51.555-51.555-51.555s-51.555 23.127-51.555 51.555v4.552h-97.678c-18.966 0-34.397 15.47-34.397 34.484v251.241c0 5.523 4.478 10 10 10h22.279c4.628 22.794 24.758 39.999 48.815 39.999s44.186-17.205 48.814-39.999h250.37c4.628 22.794 24.757 39.999 48.814 39.999s44.187-17.205 48.815-39.999h24.093c5.522 0 10-4.477 10-10v-93.722c0-2.264-.769-4.461-2.18-6.232zm-124.52-108.523 61.432 77.156h-79.474v-77.156zm-233.226-81.799c0-17.399 14.155-31.555 31.555-31.555s31.555 14.156 31.555 31.555v4.552h-63.109v-4.552zm-132.074 39.035c0-7.986 6.459-14.483 14.397-14.483h298.464c7.938 0 14.396 6.497 14.396 14.483v241.241h-217.35c-4.628-22.794-24.757-39.999-48.814-39.999s-44.187 17.205-48.815 39.999h-12.278zm61.094 281.24c-16.44 0-29.816-13.458-29.816-29.999s13.376-29.999 29.816-29.999 29.815 13.458 29.815 29.999-13.375 29.999-29.815 29.999zm347.998 0c-16.44 0-29.815-13.458-29.815-29.999s13.375-29.999 29.815-29.999 29.816 13.458 29.816 29.999-13.376 29.999-29.816 29.999zm62.908-39.999h-14.093c-4.628-22.794-24.758-39.999-48.815-39.999s-44.186 17.205-48.814 39.999h-13.02v-101.321h107.932l16.81 21.096z"/>
 														<path d="m183.629 66.808c5.522 0 10-4.477 10-10v-12.104c0-5.523-4.478-10-10-10s-10 4.477-10 10v12.104c0 5.523 4.477 10 10 10z"/>
 														<path d="m236.764 94.969c1.934 1.829 4.404 2.736 6.871 2.736 2.652 0 5.299-1.048 7.266-3.127l10.626-11.229c3.796-4.011 3.621-10.341-.391-14.137s-10.341-3.621-14.137.391l-10.626 11.229c-3.796 4.012-3.621 10.341.391 14.137z"/>
 														<path d="m116.358 94.579c1.967 2.078 4.613 3.126 7.266 3.126 2.467 0 4.938-.907 6.871-2.737 4.012-3.796 4.187-10.125.391-14.137l-10.627-11.229c-3.796-4.011-10.126-4.187-14.137-.39-4.012 3.796-4.187 10.125-.391 14.137z"/>
 														<path d="m90.896 216.592h184.372v113.287h-184.372z" fill="#b2f0fb"/>
-													</svg>
+													</svg> */}
 												</span> 
 											</div>
 											<div className="icon-content">
@@ -106,11 +120,6 @@ class aboutSection extends Component{
 							</div>
 						</div>
 					</div>
-					<img className="pt-img1 animate-wave" src={ptImg1} alt=""/>
-					<img className="pt-img2 animate2" src={ptImg2} alt=""/>
-					<img className="pt-img3 animate-rotate" src={ptImg5} alt=""/>
-					<img className="pt-img4 animate-wave" src={ptImg4} alt=""/>
-					<img className="pt-img5 animate2" src={ptImg5} alt=""/>
 				</StyledAboutSection>
 				
 			</>
