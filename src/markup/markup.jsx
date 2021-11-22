@@ -11,6 +11,8 @@ import AboutUs from './pages/about-us';
 import Team from './pages/team';
 import Services from './pages/services';
 import ServiceDetail from './pages/service-detail';
+import Welcome from './pages/api_documentation/components/Welcome';
+import GettingStarted from './pages/api_documentation/components/GettingStarted';
 import FormLogin from './pages/form-login';
 import FormRegister from './pages/form-register';
 import FormForgetPassword from './pages/form-forget-password';
@@ -23,19 +25,20 @@ import Error from './pages/error-404';
 import Header from './layout/header';
 import Footer from './layout/footer';
 
-class Markup extends Component{
-	render(){
-		return(
+class Markup extends Component {
+	render() {
+		return (
 			<>
 				<BrowserRouter>
-						<Header/>
+					<Header />
 					<Switch>
-					
+
 						<Route path='/' exact component={Index} />
 						<Route path='/about-us' exact component={AboutUs} />
 						<Route path='/team' exact component={Team} />
 						<Route path='/services' exact component={Services} />
-						<Route path='/api' exact component={ServiceDetail} />
+						<Route path='/api/welcome' exact component={Welcome} />
+						<Route path='/api/getting-started' exact component={GettingStarted} />
 						<Route path='/service-detail' exact component={ServiceDetail} />
 						<Route path='/form-login' exact component={FormLogin} />
 						<Route path='/form-register' exact component={FormRegister} />
@@ -46,15 +49,15 @@ class Markup extends Component{
 						<Route path='/blog-grid' exact component={BlogGrid} />
 						<Route path='/blog-details' exact component={BlogDetails} />
 						<Route component={Error} />
-						
+
 					</Switch>
-					
+
 					<PageScrollTop />
-					<Footer/>
+					<Footer />
 				</BrowserRouter>
-				
+
 				<BackToTop />
-				
+
 			</>
 		);
 	}
