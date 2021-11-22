@@ -82,7 +82,7 @@ const Header = () => {
 							<ul className="nav navbar-nav">	
 								<li className="active"><Link to="/">Home</Link></li>
 								<li><Link to="/about-us"><span>About Us</span></Link></li>
-								<li><Link to="/services"><span>Services</span></Link></li>
+								<li><Link to="/services/kyc"><span>Services</span></Link></li>
 								<li><Link to="/api"><span>API</span></Link></li>
 								<li><Link to="/contact-us"><span>Contact Us</span></Link></li>
 					{/*			<li>

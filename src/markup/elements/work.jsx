@@ -27,7 +27,7 @@ class aboutSection extends Component{
 										<h5 className="title text-secondary mb-10">Identity Verification</h5>
 										<p>It is a long established fact that a reader will be distracted by the readable content of.</p>
 									</div>
-									<Link to="/booking" className="btn btn-primary light">View More <i className="btn-icon-bx fas fa-chevron-right"></i></Link>
+									<Link to="/services/identity" className="btn btn-primary light">View More <i className="btn-icon-bx fas fa-chevron-right"></i></Link>
 								</StyledHomeCard>
 							</div>
 							<div className="col-lg-4 col-sm-6 mb-30">
@@ -37,7 +37,7 @@ class aboutSection extends Component{
 										<h5 className="title text-secondary mb-10">KYC</h5>
 										<p>It is a long established fact that a reader will be distracted by the readable content of.</p>
 									</div>
-									<Link to="/services" className="btn btn-primary light">View More <i className="btn-icon-bx fas fa-chevron-right"></i></Link>
+									<Link to="/services/kyc" className="btn btn-primary light">View More <i className="btn-icon-bx fas fa-chevron-right"></i></Link>
 								</StyledHomeCard>
 							</div>
 							<div className="col-lg-4 col-sm-6 mb-30">
@@ -47,7 +47,7 @@ class aboutSection extends Component{
 										<h5 className="title text-secondary mb-10">Address Verification</h5>
 										<p>It is a long established fact that a reader will be distracted by the readable content of.</p>
 									</div>
-									<Link to="/contact-us" className="btn btn-primary light">View More <i className="btn-icon-bx fas fa-chevron-right"></i></Link>
+									<Link to="/services/address" className="btn btn-primary light">View More <i className="btn-icon-bx fas fa-chevron-right"></i></Link>
 								</StyledHomeCard>
 							</div>
 						</div>

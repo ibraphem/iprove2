@@ -34,7 +34,7 @@ class Markup extends Component{
 						<Route path='/' exact component={Index} />
 						<Route path='/about-us' exact component={AboutUs} />
 						<Route path='/team' exact component={Team} />
-						<Route path='/services' exact component={Services} />
+						<Route path='/services/:service' exact component={Services} />
 						<Route path='/api' exact component={ServiceDetail} />
 						<Route path='/service-detail' exact component={ServiceDetail} />
 						<Route path='/form-login' exact component={FormLogin} />
