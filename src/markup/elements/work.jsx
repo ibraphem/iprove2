@@ -21,7 +21,7 @@ class aboutSection extends Component{
 						</div>
 						<div className="row justify-content-center">
 							<div className="col-lg-4 col-sm-6 mb-30">
-								<StyledHomeCard className="work-bx">
+								<StyledHomeCard className="work-bx active">
 									<div className="work-num-bx">01</div>
 									<div className="work-content">
 										<h5 className="title text-secondary mb-10">Identity Verification</h5>

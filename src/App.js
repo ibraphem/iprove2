@@ -18,6 +18,7 @@ import GlobalStyles from "./styles/Global.styled";
 
 import bg1 from "./images/main-banner/bg1.jpg";
 import bg2 from "./images/main-banner/bg2.jpg";
+import bnrImg1 from "./images/banner/img1.jpg";
 import footerBg from "./images/background/footer.jpg";
 import Header from "./markup/layout/header";
 
@@ -31,6 +32,7 @@ function App() {
       secondary: "#F0B90B",
       textColor: nightMode ? "#f2f2f2" : "#101010",
       mbbg: nightMode ? bg2 : bg1,
+      abtPg: nightMode ? bg2 : bnrImg1,
       footer: nightMode ? bg2 : footerBg,
     },
     mobile: "768px",
