@@ -7,6 +7,7 @@ export const StyledAboutSection = styled.section`
   h2 {
     color: ${({ theme }) => theme.colors.textColor};
   }
+
   
   }
 `;
