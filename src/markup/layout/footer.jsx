@@ -31,13 +31,13 @@ class aboutSection extends Component{
 								<div className="col-xl-3 col-lg-3 col-md-6">
 									<div className="widget widget_info">
 										<div className="footer-logo">
-											<Link to="/"><img src={iprove} style={{marginTop:"-50px"}} alt=""/></Link>
+											<Link to="/"><img src={iprove} style={{marginTop:"-35px"}} alt=""/></Link>
 										</div>
-										<div className="ft-contact" style={{marginTop:"-60px"}}>
-											<p>We offer the best verification service your business can rely on. Boostrap your decisions with proper validation</p>
+										<div className="ft-contact" style={{marginTop:"-40px"}}>
+											<p>Lorem ipsum is dolor sit amet, csectetur adipiscing elit, dolore smod tempor incididunt ut labore et.</p>
 											<div className="contact-bx">
 												<div className="icon"><i className="fas fa-phone-alt"></i></div>
-												<div className="contact-number"  >
+												<div className="contact-number">
 													<span>Contact Us</span>
 													<h4 className="number">+01 123 456 7890</h4>
 												</div>
@@ -50,8 +50,11 @@ class aboutSection extends Component{
 										<h3 className="footer-title">Quick Links</h3>
 										<ul>
 											<li><Link to="/about-us"><span>About Us</span></Link></li>
-											<li><Link to="/contact-us"><span>Contact Us</span></Link></li>
-											<li><Link to="/api"><span>API</span></Link></li>
+											<li><Link to="/services"><span>Services</span></Link></li>
+											<li><Link to="/booking"><span>Booking</span></Link></li>
+											<li><Link to="/faq"><span>Faq's</span></Link></li>
+											<li><Link to="/blog-grid"><span>Blogs</span></Link></li>
+											<li><Link to="/team"><span>Out Team</span></Link></li>
 										</ul>
 									</div>
 								</div>
@@ -59,16 +62,25 @@ class aboutSection extends Component{
 									<div className="widget footer_widget">
 										<h3 className="footer-title">Our Service</h3>
 										<ul>
-											<li><Link to="/services/kyc"><span>KYC</span></Link></li>
-											<li><Link to="/services/kyc"><span> Identity Verification</span></Link></li>
-											<li><Link to="/services/kyc"><span>Address Verification</span></Link></li>
+											<li><Link to="/service-detail"><span>Dental Care</span></Link></li>
+											<li><Link to="/service-detail"><span>Cardiac Clinic</span></Link></li>
+											<li><Link to="/service-detail"><span>Massege Therapy</span></Link></li>
+											<li><Link to="/service-detail"><span>Cardiology</span></Link></li>
+											<li><Link to="/service-detail"><span>Precise Diagnosis</span></Link></li>
+											<li><Link to="/service-detail"><span>Abmbulance Services</span></Link></li>
 										</ul>
 									</div>
 								</div>
 								<div className="col-xl-3 col-lg-3 col-md-6">
 									<div className="widget widget_form">
-										<h3 className="footer-title">We are social</h3>
-									
+										<h3 className="footer-title">Subcribe</h3>
+										<form className="subscribe-form subscription-form mb-30">
+											<div className="ajax-message"></div>
+											<div className="input-group">
+												<input name="email" required="required" className="form-control" placeholder="Email Address" type="email"/>
+											</div>
+											<button name="submit" value="Submit" type="submit" className="btn btn-secondary shadow w-100">Subscribe Now</button>	
+										</form>
 										<div className="footer-social-link">
 											<ul>
 												<li><a target="_blank" rel="noreferrer" href="https://www.facebook.com/"><img src={facebook} alt=""/></a></li>
@@ -86,7 +98,7 @@ class aboutSection extends Component{
 						<div className="footer-bottom">
 							<div className="row">
 								<div className="col-12 text-center">
-									<p className="copyright-text">Copyright © 2021 Design & Developed by <a href="#" rel="noreferrer" target="_blank" className="text-secondary">iProve</a></p>
+									<p className="copyright-text">Copyright © 2021 Design & Developed by <a href="https://themeforest.net/user/themetrades" rel="noreferrer" target="_blank" className="text-secondary">ThemeTrades</a></p>
 								</div>
 							</div>
 						</div>
