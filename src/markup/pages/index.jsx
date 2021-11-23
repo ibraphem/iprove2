@@ -17,6 +17,8 @@ class Index extends Component{
 				<MainBannerSection />
 				<WorkSection />
 				<ServicesSliderSection />
+		{/*		<AboutSection /> */}
+				<AppointmentSection />
 				<TestimonialSection />
 			{/*	<LatestNewsSection /> */}
 

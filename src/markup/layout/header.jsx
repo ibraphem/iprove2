@@ -7,7 +7,7 @@ import Sticky from 'react-stickynode';
 import iprove from '../../images/iprove.png';
 import { StyledHeader, StyledHeader1 } from '../../styles/Header.styled';
 import { useStateValue } from '../../StateProvider';
-
+import {nightMode} from "../../Reducer"
 
 
 
@@ -82,8 +82,8 @@ const Header = () => {
 							<ul className="nav navbar-nav">	
 								<li className="active"><Link to="/">Home</Link></li>
 								<li><Link to="/about-us"><span>About Us</span></Link></li>
-								<li><Link to="/services/kyc"><span>Services</span></Link></li>
-								<li><Link to="/api"><span>API</span></Link></li>
+								<li><Link to="/services"><span>Services</span></Link></li>
+								<li><Link to="/api/welcome"><span>API</span></Link></li>
 								<li><Link to="/contact-us"><span>Contact Us</span></Link></li>
 					{/*			<li>
 									<Link to="#">Pages <i className="fas fa-plus"></i></Link>
