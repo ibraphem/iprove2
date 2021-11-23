@@ -3,8 +3,7 @@ import { Link } from 'react-router-dom';
 import { Accordion } from 'react-bootstrap';
 
 // Layout
-import Header from "../../../layout/header2";
-import Footer from "../../../layout/footer";
+
 import ApiHeader from "../layouts/ApiHeader";
 import ApiSide from "../layouts/ApiSide";
 // Import Images

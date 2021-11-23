@@ -3,14 +3,10 @@ import { Link } from 'react-router-dom';
 import { Accordion } from 'react-bootstrap';
 
 // Layout
-import Header from "../../../layout/header2";
-import Footer from "../../../layout/footer";
 import ApiHeader from "../layouts/ApiHeader";
 import ApiSide from "../layouts/ApiSide";
 // Import Images
 import servicesPic1 from "../../../../images/services/pic1.jpg";
-import pdf from "../../../../images/icon/pdf.png";
-import doc from "../../../../images/icon/doc.png";
 
 class Welcome extends Component {
 

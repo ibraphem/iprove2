@@ -1,10 +1,9 @@
-import React from 'react';
-
+import './apiSidebar.css';
 import { Link } from 'react-router-dom';
 function ApiSide(props) {
     return (
         <>
-            <aside className="sticky-top pb-1">
+            <aside className="sticky-top pb-1 sideBar">
                 <div className="widget">
 
                     <ul className="service-menu">
