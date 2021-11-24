@@ -2,6 +2,7 @@ import bnrImg1 from "../../../../images/banner/img1.jpg";
 import waveBlue from "../../../../images/shap/wave-blue.png";
 import circleDots from "../../../../images/shap/circle-dots.png";
 import plusBlue from "../../../../images/shap/plus-blue.png";
+//import { StyledHeader, StyledHeader1 } from '../../../../styles/Header.styled';
 
 export default function ApiHeader() {
     return (
