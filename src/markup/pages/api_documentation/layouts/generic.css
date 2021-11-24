@@ -43,3 +43,7 @@
     hr{
         color: #F0B90B;
     }
+
+    .footer {
+       display: none;
+     }

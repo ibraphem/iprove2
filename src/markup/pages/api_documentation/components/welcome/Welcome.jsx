@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Accordion } from 'react-bootstrap';
 import '../../layouts/generic.css';
 import './welcome.css';
+import { ApiDocumentStyled } from '../../../../../styles/ApiDocumentStyled';
 // Layout
 import ApiHeader from "../../layouts/ApiHeader";
 import ApiSide from "../../layouts/ApiSide";
@@ -14,7 +15,7 @@ class Welcome extends Component {
 	render() {
 		return (
 			<>
-				<div className="page-content bg-white">
+				<ApiDocumentStyled className="page-content bg-white">
 					<ApiHeader />
 					{/*  ApiHeader */}
 					<section className="section-area section-sp1">
@@ -59,7 +60,7 @@ class Welcome extends Component {
 						</div>
 					</section>
 
-				</div>
+				</ApiDocumentStyled>
 
 			</>
 		);
